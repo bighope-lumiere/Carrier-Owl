@@ -1,11 +1,13 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:cs.* OR cat:eess.* OR cat:nlin.*'
 
 # 検索キーワード
 keywords:
+        design: 5
+        interface: 5
+        HCI: 5
+        human: 3
         kaggle: 3
-        resnet: 3
-        anomaly detection: 1
 
 # 通知の閾値
 score_threshold: 0
