@@ -1,11 +1,27 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.* OR cat:eess.* OR cat:nlin.*'
+subject: 'cat:cs.* OR cat:eess.* OR cat:nlin.* OR cat:q-fin.* OR cat:econ.*'
 
 # 検索キーワード
 keywords:
         design: 5
         interface: 5
         HCI: 5
+        interaction: 3
+        social media: 3
+        user: 3
+        mobile: 3
+        VR: 3
+        virtual reality: 3
+        AR: 3
+        augumented reality: 3
+        personal informatics: 3
+        visualization: 3
+        wearable computing: 3
+        behavior: 3
+        human computation: 3
+        UI: 3
+        computational design: 3
+        graphic: 3
         human: 3
         kaggle: 3
 
