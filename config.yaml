@@ -3,52 +3,52 @@ subject: 'cat:cs.* OR cat:eess.* OR cat:econ.*'
 
 # 検索キーワード
 keywords:
-        design: 5
-        interface: 5
-        HCI: 5
-        interaction: 3
-        social media: 3
-        user: 3
-        mobile: 3
-        VR: 3
-        virtual reality: 3
-        AR: 3
-        augumented reality: 3
-        personal informatics: 3
-        visualization: 3
-        wearable computing: 3
-        behavior: 3
-        human computation: 3
-        UI: 3
-        computational design: 3
-        graphic: 3
-        human: 3
-        information visualization: 3
-        ubiquitous computing: 3
-        Fitts's Law: 3
-        Cognitive Coprocessor: 3
-        usability analysis: 3
-        animation: 3
-        zooming: 3
-        multi-touch interface: 3
-        gesture recognition: 3
-        voice recognition: 3
-        object recognition: 3
-        mixed reality: 3
-        tuple space: 3
-        lifestreams: 3
-        3D interface: 3
-        social recommendation: 3
-        input device: 3
-        tangible interface: 3
-        ambient computing: 3
-        agent: 3
-        conceptual model: 3
-        ambient media: 3
-        ambient intelligence: 3
-        folksonomy: 3
-        predictive interface: 3
-        graphic: 3
+        design: 1
+        interface: 1
+        HCI: 1
+        interaction: 1
+        social media: 1
+        user: 1
+        mobile: 1
+        VR: 1
+        virtual reality: 1
+        AR: 1
+        augumented reality: 1
+        personal informatics: 1
+        visualization: 1
+        wearable computing: 1
+        behavior: 1
+        human computation: 1
+        UI: 1
+        computational design: 1
+        graphic: 1
+        human: 1
+        information visualization: 1
+        ubiquitous computing: 1
+        Fitts's Law: 1
+        Cognitive Coprocessor: 1
+        usability analysis: 1
+        animation: 1
+        zooming: 1
+        multi-touch interface: 1
+        gesture recognition: 1
+        voice recognition: 1
+        object recognition: 1
+        mixed reality: 1
+        tuple space: 1
+        lifestreams: 1
+        3D interface: 1
+        social recommendation: 1
+        input device: 1
+        tangible interface: 1
+        ambient computing: 1
+        agent: 1
+        conceptual model: 1
+        ambient media: 1
+        ambient intelligence: 1
+        folksonomy: 1
+        predictive interface: 1
+        graphic: 1
 
 # 通知の閾値
 score_threshold: 0
