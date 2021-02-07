@@ -14,6 +14,7 @@ import urllib.parse
 from dataclasses import dataclass
 import arxiv
 import requests
+from tqdm import tqdm
 # setting
 warnings.filterwarnings('ignore')
 
@@ -44,10 +45,7 @@ def search_keyword(
         ) -> list:
     results = []
 
-    debug_count = 0
-    for article in articles:
-        debug_count += 1
-        print(f"debug: searching {debug_count} for all {len(articles)} articles")
+    for article in tqdm(articles):
         url = article['arxiv_url']
         title = article['title']
         abstract = article['summary']
@@ -103,7 +101,7 @@ def notify(results: list, slack_id: str, line_token: str) -> None:
                f'\n {star}'
 
         send2app(text, slack_id, line_token)
-        time.sleep(0.5)
+        time.sleep(1)
 
 
 def get_translated_text(from_lang: str, to_lang: str, from_text: str) -> str:
@@ -129,7 +127,7 @@ def get_translated_text(from_lang: str, to_lang: str, from_text: str) -> str:
     driver.get(url)
     driver.implicitly_wait(10)  # 見つからないときは、10秒まで待つ
 
-    for i in range(30):
+    for i in range(60):
         # 指定時間待つ
         time.sleep(sleep_time)
         html = driver.page_source

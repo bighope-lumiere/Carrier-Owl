@@ -22,7 +22,6 @@ keywords:
         UI: 1
         computational design: 1
         graphic: 1
-        human: 1
         information visualization: 1
         ubiquitous computing: 1
         Fitts's Law: 1
@@ -48,7 +47,6 @@ keywords:
         ambient intelligence: 1
         folksonomy: 1
         predictive interface: 1
-        graphic: 1
 
 # 通知の閾値
-score_threshold: 0
+score_threshold: 2
