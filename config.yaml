@@ -23,10 +23,32 @@ keywords:
         computational design: 3
         graphic: 3
         human: 3
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
-        of: 3
+        information visualization: 3
+        ubiquitous computing: 3
+        Fitts's Law: 3
+        Cognitive Coprocessor: 3
+        usability analysis: 3
+        animation: 3
+        zooming: 3
+        multi-touch interface: 3
+        gesture recognition: 3
+        voice recognition: 3
+        object recognition: 3
+        mixed reality: 3
+        tuple space: 3
+        lifestreams: 3
+        3D interface: 3
+        social recommendation: 3
+        input device: 3
+        tangible interface: 3
+        ambient computing: 3
+        agent: 3
+        conceptual model: 3
+        ambient media: 3
+        ambient intelligence: 3
+        folksonomy: 3
+        predictive interface: 3
+        graphic: 3
 
 # 通知の閾値
 score_threshold: 0

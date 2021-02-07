@@ -44,7 +44,10 @@ def search_keyword(
         ) -> list:
     results = []
 
+    debug_count = 0
     for article in articles:
+        debug_count += 1
+        print(f"debug: searching {debug_count} for all {len(articles)} articles")
         url = article['arxiv_url']
         title = article['title']
         abstract = article['summary']
@@ -167,12 +170,12 @@ def main():
     keywords = config['keywords']
     score_threshold = float(config['score_threshold'])
 
-    day_before_yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
-    day_before_yesterday_str = day_before_yesterday.strftime('%Y%m%d')
+    date_target = datetime.datetime.today() - datetime.timedelta(days=3)
+    date_target_str = date_target.strftime('%Y%m%d')
     # datetime format YYYYMMDDHHMMSS
     arxiv_query = f'({subject}) AND ' \
                   f'submittedDate:' \
-                  f'[{day_before_yesterday_str}000000 TO {day_before_yesterday_str}235959]'
+                  f'[{date_target_str}000000 TO {date_target_str}235959]'
     articles = arxiv.query(query=arxiv_query,
                            max_results=1000,
                            sort_by='submittedDate',
