@@ -3,50 +3,49 @@ subject: 'cat:cs.* OR cat:eess.* OR cat:econ.*'
 
 # 検索キーワード
 keywords:
-        design: 1
-        interface: 1
-        HCI: 1
-        interaction: 1
-        social media: 1
-        user: 1
-        mobile: 1
-        VR: 1
-        virtual reality: 1
-        AR: 1
-        augumented reality: 1
-        personal informatics: 1
-        visualization: 1
-        wearable computing: 1
-        behavior: 1
-        human computation: 1
-        UI: 1
-        computational design: 1
-        graphic: 1
-        information visualization: 1
-        ubiquitous computing: 1
-        Fitts's Law: 1
-        Cognitive Coprocessor: 1
-        usability analysis: 1
-        animation: 1
-        zooming: 1
-        multi-touch interface: 1
-        gesture recognition: 1
-        voice recognition: 1
-        object recognition: 1
-        mixed reality: 1
-        tuple space: 1
-        lifestreams: 1
-        3D interface: 1
-        social recommendation: 1
-        input device: 1
-        tangible interface: 1
-        ambient computing: 1
+        3D: 1
         agent: 1
+        ambient: 1
+        animation: 1
+        AR: 1
+        augumented: 1
+        behavior: 1
+        Cognitive Coprocessor: 1
+        computational design: 1
         conceptual model: 1
-        ambient media: 1
-        ambient intelligence: 1
+        design: 1
+        device: 1
+        Fitts's Law: 1
         folksonomy: 1
-        predictive interface: 1
+        gesture recognition: 1
+        graphic: 1
+        haptics: 1
+        HCI: 1
+        human computation: 1
+        information visualization: 1
+        input device: 1
+        interaction: 1
+        interface: 1
+        lifestreams: 1
+        mixed reality: 1
+        mobile: 1
+        multi-touch: 1
+        personal informatics: 1
+        predictive: 1
+        recognition: 1
+        social: 1
+        tangible: 1
+        tuple space: 1
+        ubiquitous: 1
+        UI: 1
+        usability: 1
+        user: 1
+        virtual reality: 1
+        visualization: 1
+        voice: 1
+        VR: 1
+        wearable: 1
+        zooming: 1
 
 # 通知の閾値
 score_threshold: 3
