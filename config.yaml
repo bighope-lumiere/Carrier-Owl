@@ -7,20 +7,23 @@ keywords:
         agent: 1
         ambient: 1
         animation: 1
-        AR: 1
         augumented: 1
+        baby: 1
         behavior: 1
+        child: 1
         Cognitive Coprocessor: 1
         computational design: 1
         conceptual model: 1
         design: 1
         device: 1
+        experience: 1
         Fitts's Law: 1
         folksonomy: 1
         gesture recognition: 1
         graphic: 1
         haptics: 1
         HCI: 1
+        human augmentation: 1
         human computation: 1
         information visualization: 1
         input device: 1
@@ -30,6 +33,7 @@ keywords:
         mixed reality: 1
         mobile: 1
         multi-touch: 1
+        pedagogical: 1
         personal informatics: 1
         predictive: 1
         recognition: 1
@@ -37,13 +41,12 @@ keywords:
         tangible: 1
         tuple space: 1
         ubiquitous: 1
-        UI: 1
+        UI design: 1
         usability: 1
         user: 1
         virtual reality: 1
         visualization: 1
         voice: 1
-        VR: 1
         wearable: 1
         zooming: 1
 
