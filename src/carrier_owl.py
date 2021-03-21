@@ -14,7 +14,6 @@ import urllib.parse
 from dataclasses import dataclass
 import arxiv
 import requests
-from tqdm import tqdm
 # setting
 warnings.filterwarnings('ignore')
 
@@ -45,7 +44,7 @@ def search_keyword(
         ) -> list:
     results = []
 
-    for article in tqdm(articles):
+    for article in articles:
         url = article['arxiv_url']
         title = article['title']
         abstract = article['summary']
